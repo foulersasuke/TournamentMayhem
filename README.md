@@ -5,7 +5,7 @@ Characters are the core of the game and until the blueprint of a Character is fi
 
 The 3 pillars of the game are: Characters, Networking(multiplayer-online-ability), and the Game Variant "BATTLE".
               
-              The goal for now is to get the programming part of these 3 things completed (funtionally) before we start               the spring semester.
+              The goal for now is to get the programming part of these 3 things completed (funtionally) before we start the spring semester.
               
               Most of the programming will need to be rewritten and optimized after initially completed.
               
@@ -18,9 +18,7 @@ Programming Help:
 
               When creating levels right now objects must have the tag "surface" to stop player from walking through                them.
               
-              THE CODE IS SLOPPY I FUCKING KNOW. Don't stres toooo much about optimization until after first version.               We will be able to optimize and clean up code much better after knowing exactly what we need and have 
-              plenty of experince with doing those things. The number for the wahmbulence is available for anyone who
-              needs it.
+              THE CODE IS SLOPPY I FUCKING KNOW. Don't stres toooo much about optimization until after first version.               We will be able to optimize and clean up code much better after knowing exactly what we need and have plenty of experince with doing those things. The number for the wahmbulence is available for anyone who needs it.
               
               
               
