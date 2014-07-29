@@ -1,6 +1,6 @@
 Tournament Mayhem
 ================
-[The spacing in this is weird so if soemthings sounds wrong scroll to the right :)]
+[The spacing in this is weird so if some things sounds wrong scroll to the right :)]
 
 Characters are the core of the game and until the blueprint of a Character is finished we can't start anything else.
 
