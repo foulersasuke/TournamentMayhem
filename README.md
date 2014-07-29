@@ -1,25 +1,26 @@
 Tournament Mayhem
 ================
-[The spacing in this is weird so if some things sounds wrong scroll to the right :)]
+[The spacing in this is weird so if some things look wrong scroll to the right :)]
 
 Characters are the core of the game and until the blueprint of a Character is finished we can't start anything else.
 
 The 3 pillars of the game are: Characters, Networking(multiplayer-online-ability), and the Game Variant "BATTLE".
               
-              The goal for now is to get the programming part of these 3 things completed (funtionally) before we start the spring semester.
+              The goal for now is to get the programming part of these 3 things completed (functionally) before we start the spring semester.
               
               Most of the programming will need to be rewritten and optimized after initially completed.
               
               Also, before the spring semester a goal is to have a few levels and characters completed.
-              Again, "completed" means programmed and functional. We need to be able to demo the game for 3d moddelers                and animators etc...
+              Again, "completed" means programmed and functional. We need to be able to demo the game for 3d modelers and animators etc...
               
 
 Programming Help:
 
 
-              When creating levels right now objects must have the tag "surface" to stop player from walking through                them.
+              When creating levels right now objects must have the tag "surface" to stop player from walking through them.
               
-              THE CODE IS SLOPPY I FUCKING KNOW. Don't stres toooo much about optimization until after first version.               We will be able to optimize and clean up code much better after knowing exactly what we need and have plenty of experince with doing those things. The number for the wahmbulence is available for anyone who needs it.
+              THE CODE IS SLOPPY I FUCKING KNOW. Don't stress toooo much about optimization until after first version. We will be able to optimize and clean up code much better after 		      knowing exactly what we need and have plenty of experience with doing those things. 
+	      The number for the wahhhmbulence is available for anyone who needs it.
               
               
               
@@ -35,7 +36,7 @@ Programming Help:
     
     Character.gainPower(int powerPoints)
     
-    The basic controls are avialable to see on Trello
+    The basic controls are available to see on Trello
     
     CheckSurface game object is being used to detect walls etc
     
@@ -58,7 +59,7 @@ NEW PEOPLE READ THIS:
               
                             http://unity3d.com/learn/tutorials/modules
                             
-              We are looking for anyone who is really interested and excited about the game. Contact Tom if you want a               lecture about how cool the game is.
+              We are looking for anyone who is really interested and excited about the game. Contact Tom if you want a lecture about how cool the game is.
     
     
     
