@@ -1,14 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CheckTop : MonoBehaviour {
+public class CheckTop : MonoBehaviour 
+{
 
-
+	
+	
 	public static bool top;
 	
 	
 	
-	void OnTriggerEnter(Collider other)
+	void OnTriggerStay(Collider other)
 	{
 		
 		if(other.tag == "surface")
@@ -30,10 +32,11 @@ public class CheckTop : MonoBehaviour {
 		
 		
 	}
-
-
-
-
-
-
+	
+	
+	
+	
+	
+	
+	
 }

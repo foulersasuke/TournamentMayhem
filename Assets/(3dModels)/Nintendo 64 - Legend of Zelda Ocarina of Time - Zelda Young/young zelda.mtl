@@ -1,0 +1,167 @@
+# Blender3D MTL File: young zelda.blend
+# Material Count: 15
+newmtl Material.146_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.328125 0.281250 0.281250
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.141_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.396875 0.350000 0.406250
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.152_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.462500 0.415625 0.521875
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.145_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.437500 0.390625 0.481250
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.142_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.737500 0.690625 0.665625
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.149_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.328125 0.281250 0.281250
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.153_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.796875 0.775000 0.796875
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.144_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.328125 0.281250 0.281250
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.150_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.459375 0.412500 0.521875
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.148_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.725000 0.678125 0.662500
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.147_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.796875 0.796875 0.796875
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.143_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.437500 0.390625 0.481250
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.140_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.468750 0.421875 0.534375
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.151_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.328125 0.281250 0.281250
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+
+newmtl Material.105_young_zelda_grp.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.796875 0.796875 0.771875
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd young zelda_grp.png
+
+

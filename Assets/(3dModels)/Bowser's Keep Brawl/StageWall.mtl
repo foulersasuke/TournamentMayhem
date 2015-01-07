@@ -1,0 +1,47 @@
+newmtl Column1
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Column1.png
+
+newmtl Column2
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Column2.png
+
+newmtl spike4
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Spike4.png
+
+newmtl Wall1
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Wall1.png
+
+newmtl Black
+Kd 0.000000 0.000000 0.000000
+illum 1
+map_Kd black.png
+
+newmtl WallRim
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Ka WindowRimLum.png
+map_Kd WindowRim.png
+
+newmtl Window
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Window.png
+
+newmtl Wall2
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Wall2.png
+
+newmtl WindowAlpha
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Window.png
+map_d WindowMask.png

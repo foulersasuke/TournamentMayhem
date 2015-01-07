@@ -1,0 +1,53 @@
+Character Light Set:
+--------------------
+(All lights end at 0,0,0)
+
+Ambient
+	RGB:	62,33,5
+	Type:	Ambient
+
+Window
+	RGB:	167,172,215
+	Start:	X:0 Y:124 Z:-127
+	Spec:	Yes
+	Type:	Directional
+
+Candle
+	RGB:	67,38,12
+	Start:	X:-129 Y:-19 Z:133
+	Spec:	No
+	Type:	Directional
+
+Dull
+	RGB:	46,46,46
+	Start:	X:0 Y:99 Z:144
+	Spec:	No
+	Type:	Directional
+
+L_Crystal*
+	RGB:	179,115,200
+	Start:	X:-58 Y:-42 Z:0
+	Spec:	No
+	Type:	Point
+
+R_Crystal*
+	RGB:	179,115,200
+	Start:	X:58 Y:-42 Z:0
+	Spec:	No
+	Type:	Point
+
+*May have to mess with falloff so that it affects a wide range
+
+
+Cliff Light Set:
+----------------
+
+CliffAmbient
+	RGB:	72,58,58
+	Type:	Ambient
+
+Skylight
+	RGB:	124,103,113
+	Start:	X:0 Y:64 Z:-76
+	Spec:	No
+	Type:	Directional

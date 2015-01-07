@@ -1,0 +1,14 @@
+newmtl StatueBase
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd StatueBase.png
+
+newmtl helmet
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd StatueHelmet.png
+
+newmtl statue
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Statue.png

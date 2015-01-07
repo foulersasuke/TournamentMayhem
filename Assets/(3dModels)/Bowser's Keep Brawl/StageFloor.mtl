@@ -1,0 +1,182 @@
+newmtl spike4
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Spike4.png
+
+newmtl Wall1
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Wall1.png
+
+newmtl WallRim
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Ka WindowRimLum.png
+map_Kd WindowRim.png
+
+newmtl WindowAlpha
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Window.png
+map_d WindowMask.png
+
+newmtl Wall2
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Wall2.png
+
+newmtl Column2
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Column2.png
+
+newmtl Column1
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Column1.png
+
+newmtl Column3
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Column3.png
+
+newmtl HexEdge2
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd HexEdge2.png
+
+newmtl Black
+Kd 0.000000 0.000000 0.000000
+illum 1
+map_Kd black.png
+
+newmtl Window
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Window.png
+
+newmtl WallRimDark
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd WindowRimDark.png
+
+newmtl BoxShadow
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd BoxShadow.png
+map_d BoxShadow.png
+
+newmtl Door
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Door.png
+map_d Door.png
+
+newmtl Bowser
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Bowser.png
+
+newmtl Pillar2
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Pillar2.png
+
+newmtl Candle
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Ka candleLum.png
+map_Kd candle.png
+
+newmtl StatueBase
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd StatueBase.png
+
+newmtl helmet
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd StatueHelmet.png
+
+newmtl statue
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Statue.png
+
+newmtl Pillar1
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Pillar1.png
+
+newmtl HexTile2
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd HexTile2.png
+
+newmtl Rail
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Rail.png
+map_d Rail.png
+
+newmtl floor1
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Floor1.png
+
+newmtl HexTile1
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd HexTile1.png
+
+newmtl HexEdge1
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd HexEdge1.png
+
+newmtl spike2
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Spike2.png
+
+newmtl spike1
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Spike1.png
+
+newmtl spike3
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Spike3.png
+
+newmtl carpet1
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Carpet1.png
+
+newmtl carpet2
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Carpet2.png
+
+newmtl Flame
+Kd 0.800000 0.800000 0.800000
+Tf 1.000000 1.000000 1.000000
+illum 1
+d 0.000000
+Ni 1.000000
+map_Kd Flame1.png
+
+newmtl ChestMetal
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Ka ChestMarkLum.png
+map_Kd ChestMark.png
+
+newmtl Chest
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Chest.png

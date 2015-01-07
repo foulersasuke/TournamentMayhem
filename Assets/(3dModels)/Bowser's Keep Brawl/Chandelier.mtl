@@ -1,0 +1,44 @@
+newmtl Flame
+Kd 0.800000 0.800000 0.800000
+Tf 1.000000 1.000000 1.000000
+illum 1
+d 0.000000
+Ni 1.000000
+map_Kd Flame1.png
+
+newmtl frame
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd frame.png
+
+newmtl hub
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd hub.png
+
+newmtl frameAlpha
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd frame.png
+map_d frameMask.png
+
+newmtl candle
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Ka candleLum.png
+map_Kd candle.png
+
+newmtl hook
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd hook.png
+map_d hook.png
+
+newmtl crystal
+Kd 0.800000 0.800000 0.800000
+Tf 1.000000 1.000000 1.000000
+illum 1
+d 0.000000
+Ni 1.000000
+map_Kd crystal.png

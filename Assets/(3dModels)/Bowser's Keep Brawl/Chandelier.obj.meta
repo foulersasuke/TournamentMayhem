@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: 6f8894c07895b4e39836657df6d92037
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Candle
+    100002: //RootNode
+    100004: Crystal
+    100006: Flame1
+    100008: Flame2
+    100010: Flame3
+    100012: Flame4
+    100014: Flower
+    100016: Frame
+    100018: Hook
+    100020: Hub
+    400000: Candle
+    400002: //RootNode
+    400004: Crystal
+    400006: Flame1
+    400008: Flame2
+    400010: Flame3
+    400012: Flame4
+    400014: Flower
+    400016: Frame
+    400018: Hook
+    400020: Hub
+    2300000: Candle
+    2300002: Crystal
+    2300004: Flame1
+    2300006: Flame2
+    2300008: Flame3
+    2300010: Flame4
+    2300012: Flower
+    2300014: Frame
+    2300016: Hook
+    2300018: Hub
+    3300000: Candle
+    3300002: Crystal
+    3300004: Flame1
+    3300006: Flame2
+    3300008: Flame3
+    3300010: Flame4
+    3300012: Flower
+    3300014: Frame
+    3300016: Hook
+    3300018: Hub
+    4300000: Candle
+    4300002: Crystal
+    4300004: Flame1
+    4300006: Flame2
+    4300008: Flame3
+    4300010: Flame4
+    4300012: Flower
+    4300014: Frame
+    4300016: Hook
+    4300018: Hub
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

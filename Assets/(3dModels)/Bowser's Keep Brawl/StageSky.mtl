@@ -1,0 +1,37 @@
+newmtl BladeMini
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd BladeMini.png
+map_d BladeMini.png
+
+newmtl Volcano
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Volcano.png
+map_d Volcano.png
+
+newmtl Cliff
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Cliff.png
+map_d Cliff.png
+
+newmtl Sea
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Sea.png
+
+newmtl Sky
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Sky.png
+
+newmtl Black
+Kd 0.000000 0.000000 0.000000
+illum 1
+map_Kd black.png
+
+newmtl Rock
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd Rock.png

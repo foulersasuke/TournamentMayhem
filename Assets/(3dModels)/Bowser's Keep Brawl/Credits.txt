@@ -1,0 +1,30 @@
+Bowser's Keep, Brawl-styled
+
+Model and most textures made from scratch by Peardian using Cinema 4D and Fireworks.
+Environment image ripped from Super Smash Bros. Brawl, to help the model fit in with the art style of the game.
+Textures from other stages were used to create some of the textures for the same reason.
+The Kinklink model was made by editing the model for Chain Chomp from New Super Mario Bros. Wii to ensure design accuracy.
+
+
+Info:
+I made this after studying the truly inspirational 3D artwork in Brawl.
+With several models under my belt, I thought I'd try making an entire custom stage.
+This isn't the first stage idea I have come up with, but this is the first one I have been able to see to completion.
+The stage is divided up into pieces for easy management, including standalone versions of the statues.
+I also included the color values for the lights I used, for those that want to recreate the atmosphere I envisioned.
+And before anyone starts trying to hack these into Brawl, this has already been done by DemonSlayerX8 on KC-MM.
+
+Like with my other Brawl-style models, I put a lot of consideration into how the stage would work.
+The battle takes place on the chandeliers, much like in Super Mario RPG.
+Since just having two platforms isn't very exciting, the platforms will occasionally move to spice things up.
+They drop to the ground, being caught just before hitting the floor, then raise back up towards the ceiling.
+I made metal platforms for the fighters to stand on, since the chandeliers themselves aren't very solid.
+You are welcome to modify the bones.
+
+If you have any comments or questions, my e-mail address is peardian@gmail.com
+I have never done any Brawl hacking, nor do I know how. Please don't ask me to help you.
+
+
+Super Mario RPG belongs to Nintendo & Square Enix
+Bowser, Chain Chomp, and New Super Mario Bros. Wii belong to Nintendo
+Super Smash Bros. Brawl belongs to Nintendo & HAL Laboratory, Inc.

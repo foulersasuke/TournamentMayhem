@@ -1,0 +1,14 @@
+newmtl Eye
+Kd 1.000000 1.000000 1.000000
+illum 1
+map_Kd KinklinkEye0.png
+
+newmtl Body
+Kd 1.000000 1.000000 1.000000
+illum 1
+map_Kd KinklinkBody.png
+
+newmtl Chain
+Kd 1.000000 1.000000 1.000000
+illum 1
+map_Kd chain.png

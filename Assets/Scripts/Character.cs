@@ -8,15 +8,8 @@ public class Character : MonoBehaviour {
 	public int setWeaponMax;
 	public int setItemMax;
 
-
 	public string characterName;
 	public static int healthMax;
-	public Vector3 jumpHeight;
-	public int numJumpMax;
-	public float jumpSpeed;
-	public float fallSpeed;
-	public int speed;
-	public int sprint;
 	public static int powerMax;
 	public static int weaponMax;
 	public static int itemMax;
@@ -25,50 +18,55 @@ public class Character : MonoBehaviour {
 	public int fPower;
 	
 	
-	public static int jumpIndex;
 	public static int power;
 	public static int health;
 	public static int weaponIndex;
 	public static int itemIndex;
-	Vector3 forward;
-	Vector3 right;
+	
 	float wTemp;
 	float wTempCheck;
-	Vector3 destination = new Vector3();
+
 	bool movingUp;
 	public static bool throwing;
+	public static long itemCounter;
+	
+	public static Transform cTrans;
+	public static Item snozz;
+	GameObject tempy;
+	
+	public AudioSource throwSound;
+	public AudioSource epowerSound;
+	public AudioSource qpowerSound;
+	public AudioSource fpowerSound;
+	
+	public AudioSource lowhealthSound;
 	
 	
 	// Use this for initialization
 	void Start () 
 	{
-		Screen.showCursor = false;
+		cTrans = transform;
 	
+		itemCounter = 0;
 		throwing = false;
 		powerMax = setPowerMax;
 		healthMax = setHealthMax;
 		itemMax = setItemMax;
 		weaponMax = setWeaponMax; //whoops
 	
-		
-		movingUp = false;
-		jumpIndex = 0;
 		power = powerMax;
 		health = healthMax;
-		Jog();
 		weaponIndex = 1;
 		wTemp = 0;
 		wTempCheck = 0;
 		itemIndex = 0;
 		
-	
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-	
-		//Recieve Input
+		Screen.showCursor = false;
 	
 		wTemp += Input.GetAxis("Mouse ScrollWheel");
 		if(wTemp != wTempCheck)
@@ -90,88 +88,59 @@ public class Character : MonoBehaviour {
 			wTempCheck = wTemp;
 		}
 	
-	
-	
-		if (Input.GetKeyDown("space"))
-		{
-			jump();							
-		}
-		
-		if (Input.GetKey("w") && (CheckFront.front == false))
-		{
-			transform.Translate(forward * Time.deltaTime);
-		}
-		else if(Input.GetKey("s") && (CheckBack.back == false))
-		{
-			transform.Translate(-forward * Time.deltaTime);
-		}
-		
-		if (Input.GetKey("d") && (CheckRight.right == false))
-		{
-			transform.Translate(right * Time.deltaTime);
-		}
-		else if(Input.GetKey("a") && (CheckLeft.left == false) )
-		{
-			transform.Translate(-right * Time.deltaTime);
-		}
-	
 			
-		if (Input.GetKeyDown("q"))
+		if (Input.GetKeyDown("q") && (qPower != 0))
 		{
+			qpowerSound.Play();
 		
 			usePower(qPower);
 			Debug.Log(power);
 		}
-		else if (Input.GetKeyDown("e"))
+		else if (Input.GetKeyDown("e") && (ePower != 0))
 		{
+			epowerSound.Play();
+		
 			usePower(ePower);
 			Debug.Log(power);
-			
 		}
 			
 		
-		
-		if(Input.GetMouseButtonDown(2))
+		if(((Input.GetMouseButtonDown(2) || Input.GetKeyDown("t"))  && (itemIndex != 0)))
 		{
-			
-			
+	
 			//throwItem
+			
+			throwSound.Play();
+			
 			throwing = true;
 			
-			Instantiate(Inventory.items[Character.itemIndex]);
+			tempy = (GameObject) Instantiate(Inventory.items[Character.itemIndex]);
 			
+			snozz = tempy.GetComponent<Item>();
+			snozz.ammunition = Item.snizz.ammunition;
+			snozz.bulletNum = Item.snizz.bulletNum;
 			
-			Inventory.removeItem(Character.itemIndex);
+	
+			Inventory.removeItem(itemIndex);
 			
+		}
+		else if(Input.GetMouseButtonUp(2) || Input.GetKeyUp("t"))
+		{
 			
 			weaponIndex = 1;
 			Inventory.changeWeaponItem();
 			
 		}	
 		
-	
 		
-		if (Input.GetKeyDown("f"))
+		if (Input.GetKeyDown("f") && (fPower != 0))
 		{
+			fpowerSound.Play();
+		
 			usePower(fPower);
 			Debug.Log(power);
 		}
 		
-		if (Input.GetKeyDown("left shift"))
-		{
-			Sprint();
-		}
-		if(Input.GetKeyUp("left shift"))
-		{
-			Jog();
-		}
-		
-		if (Input.GetKey("x"))
-		{
-			Debug.Log("x"); //crouch?
-		}
-
-				
 		
 		if (Input.GetKeyDown("1"))
 		{
@@ -193,8 +162,7 @@ public class Character : MonoBehaviour {
 				
 			}
 			
-			Inventory.changeWeaponItem();
-			
+			Inventory.changeWeaponItem();	
 			
 		}
 		else if (Input.GetKeyDown("2"))
@@ -291,83 +259,9 @@ public class Character : MonoBehaviour {
 			Inventory.changeWeaponItem();
 			
 		}
-	
-		
-		if(movingUp)
-		{
 		
 		
-			if((transform.position.y < destination.y) && (CheckTop.top == false))
-			{
-				transform.position += (Vector3.up * jumpSpeed * Time.deltaTime);
-			}
-			else
-			{
-				movingUp = false;
-			
-			}
 		
-		}
-		else if(CheckBottom.bottom == false)
-		{
-		
-			
-			transform.position += (Vector3.down * fallSpeed * Time.deltaTime);
-		
-		
-		}
-	
-
-	
-	
-	
-
-
-
-
-
-	}
-			
-		
-
-	
-	
-	
-	
-		
-	
-	
-	void jump()
-	{
-	
-		if(jumpIndex < numJumpMax)
-		{
-			destination = transform.position + jumpHeight;
-				
-			
-			movingUp = true;
-
-				
-			jumpIndex++;
-				
-		}
-		
-	}
-	
-	
-	void Sprint()
-	{
-	
-		forward = new Vector3(0,0,speed + sprint);
-		right = new Vector3(speed + sprint,0,0);
-	
-	}
-	
-	void Jog()
-	{
-		forward = new Vector3(0,0,speed);
-		right = new Vector3(speed,0,0);
-	
 	}
 	
 	
@@ -433,7 +327,6 @@ public class Character : MonoBehaviour {
 	}
 	
 	
-	
 	public static void gainPower(int powerPoints)
 	{
 	
@@ -452,12 +345,6 @@ public class Character : MonoBehaviour {
 	
 	
 	}
-	
-	
-
-	
-	
-	
 	
 	
 	

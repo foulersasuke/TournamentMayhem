@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.5.0" xmlns="http://www.collada.org/2008/03/COLLADASchema">
+	<asset>
+		<contributor>
+			<authoring_tool>BrawlBox</authoring_tool>
+		</contributor>
+		<created>2013-12-21T00:28:04Z</created>
+		<modified>2013-12-21T00:28:04Z</modified>
+		<unit meter="0.01" name="centimeter" />
+		<up_axis>Y_UP</up_axis>
+	</asset>
+	<library_materials>
+		<material id="boomerangMat">
+			<instance_effect url="#boomerangMat-fx" />
+		</material>
+	</library_materials>
+	<library_effects>
+		<effect id="boomerangMat-fx" name="boomerangMat">
+			<profile_COMMON>
+				<technique sid="COMMON">
+					<phong>
+						<diffuse />
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_geometries>
+		<geometry id="polygon0-ID" name="polygon0">
+			<mesh>
+				<source id="polygon0-ID_Positions">
+					<float_array id="polygon0-ID_PosArr" count="99">13.25388 43.54215 -8.226936 12.29392 43.51443 -6.42012 8.796849 40.85783 -3.577547 8.156224 41.14919 -2.323414 4.527806 39.68595 -1.5478 4.19431 40.19924 -0.6780502 -0.1191663 39.41422 -1.077152 -0.1191663 39.97903 -0.2966269 -4.387721 39.68595 -1.5478 -4.08108 40.19924 -0.6780502 -9.034205 40.85783 -3.577547 -8.394069 41.14919 -2.323414 -13.49221 43.54215 -8.226936 -12.53225 43.51443 -6.42012 -12.30374 40.75797 -3.404596 -11.42874 41.25759 -2.511165 -9.034694 37.84879 1.634251 -8.394557 38.89968 1.572855 -4.576686 36.39494 4.152406 -4.256862 37.72097 3.614442 -0.1191663 35.20866 6.207102 -0.1191663 36.75954 5.27968 4.338841 36.39494 4.152406 4.018529 37.72097 3.614442 8.796361 37.84879 1.634251 8.156224 38.89968 1.572855 12.0654 40.75797 -3.404596 11.1904 41.25759 -2.511165 -8.394069 40.23098 -0.7330225 -4.256862 39.0845 1.252747 -0.1191663 38.49441 2.274809 4.018529 39.0845 1.252747 8.156224 40.23098 -0.7330225</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_PosArr" count="33" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0-ID_Normals">
+					<float_array id="polygon0-ID_NormArr" count="87">0.03979492 0.9989433 0.02356364 0.01318359 0.934163 0.3565916 -0.5909424 0.6575097 -0.4674536 -0.3574829 0.9335428 0.02661105 -0.2598267 0.8089829 -0.5272981 -0.1522217 0.9883059 -0.01196691 0.004333496 0.8279976 -0.5607207 0.002563477 0.9994274 -0.03415968 0.2468872 0.8178297 -0.5197942 0.1442871 0.9895166 -0.008448782 0.5767212 0.6724681 -0.4638212 0.3461914 0.9376919 0.02992271 -0.03991699 0.9989433 0.02356364 -0.01318359 0.934163 0.3565916 -0.7376709 0.3777622 0.5595638 -0.5400391 0.5960869 0.594134 -0.5273438 0.3452279 0.7763153 -0.2841797 0.6622436 0.6932925 -0.3015747 0.411544 0.8600608 -0.1593628 0.6761862 0.719314 0 0.4769984 0.8788925 0 0.7010605 0.7130958 0.3015747 0.411544 0.8600608 0.1593628 0.6761862 0.719314 0.5273438 0.3452279 0.7763153 0.2841797 0.6622436 0.6932925 0.7376709 0.3777622 0.5595638 0.5400391 0.5960869 0.594134 0 0.8660254 0.5</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_NormArr" count="29" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0-ID_Colors0">
+					<float_array id="polygon0-ID_ColorArr0" count="20">0.5176471 0.509804 0.5176471 1 0.2901961 0.3019608 0.2901961 1 0 0 0 1 0.8078432 0.8117648 0.8078432 1 0.9058824 0.9058824 0.9058824 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_ColorArr0" count="5" stride="4">
+							<param name="R" type="float" />
+							<param name="G" type="float" />
+							<param name="B" type="float" />
+							<param name="A" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0-ID_UVs0">
+					<float_array id="polygon0-ID_UVArr0" count="38">1 0.75 0.8333435 1 0.6666565 1 0.5 1 0.3333435 1 0.1666565 1 0 0.75 0 0 0.1666565 0 0.3333435 0 0.5 0 0.6666565 0 0.8333435 0 1 0 0.1666565 0.5 0.3333435 0.5 0.5 0.5 0.6666565 0.5 0.8333435 0.5</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_UVArr0" count="19" stride="2">
+							<param name="S" type="float" />
+							<param name="T" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="polygon0-ID_Vertices">
+					<input semantic="POSITION" source="#polygon0-ID_Positions" />
+				</vertices>
+				<triangles material="boomerangMat-ID" count="50">
+					<input semantic="VERTEX" source="#polygon0-ID_Vertices" offset="0" />
+					<input semantic="NORMAL" source="#polygon0-ID_Normals" offset="1" />
+					<input semantic="COLOR" source="#polygon0-ID_Colors0" set="0" offset="2" />
+					<input semantic="TEXCOORD" source="#polygon0-ID_UVs0" set="0" offset="3" />
+					<p>2 2 1 1 1 1 0 0 0 0 0 0 3 3 1 1 1 1 0 0 2 2 1 1 4 4 1 2 3 3 1 1 2 2 1 1 5 5 1 2 3 3 1 1 4 4 1 2 6 6 1 3 5 5 1 2 4 4 1 2 7 7 1 3 5 5 1 2 6 6 1 3 8 8 1 4 7 7 1 3 6 6 1 3 9 9 1 4 7 7 1 3 8 8 1 4 10 10 1 5 9 9 1 4 8 8 1 4 11 11 1 5 9 9 1 4 10 10 1 5 12 12 0 6 11 11 1 5 10 10 1 5 13 13 0 6 11 11 1 5 12 12 0 6 14 14 2 7 13 13 0 6 12 12 0 6 15 15 3 7 13 13 0 6 14 14 2 7 16 16 2 8 15 15 3 7 14 14 2 7 17 17 4 8 15 15 3 7 16 16 2 8 18 18 2 9 17 17 4 8 16 16 2 8 19 19 4 9 17 17 4 8 18 18 2 9 20 20 2 10 19 19 4 9 18 18 2 9 21 21 4 10 19 19 4 9 20 20 2 10 22 22 2 11 21 21 4 10 20 20 2 10 23 23 4 11 21 21 4 10 22 22 2 11 24 24 2 12 23 23 4 11 22 22 2 11 25 25 4 12 23 23 4 11 24 24 2 12 26 26 2 13 25 25 4 12 24 24 2 12 27 27 3 13 25 25 4 12 26 26 2 13 0 0 0 0 27 27 3 13 26 26 2 13 1 1 0 0 27 27 3 13 0 0 0 0 17 17 4 8 13 13 0 6 15 15 3 7 28 28 0 14 13 13 0 6 17 17 4 8 19 19 4 9 28 28 0 14 17 17 4 8 29 28 0 15 28 28 0 14 19 19 4 9 21 21 4 10 29 28 0 15 19 19 4 9 30 28 0 16 29 28 0 15 21 21 4 10 23 23 4 11 30 28 0 16 21 21 4 10 31 28 0 17 30 28 0 16 23 23 4 11 25 25 4 12 31 28 0 17 23 23 4 11 32 28 0 18 31 28 0 17 25 25 4 12 27 27 3 13 32 28 0 18 25 25 4 12 1 1 0 0 32 28 0 18 27 27 3 13 3 3 1 1 32 28 0 18 1 1 0 0 5 5 1 2 32 28 0 18 3 3 1 1 28 28 0 14 11 11 1 5 13 13 0 6 29 28 0 15 11 11 1 5 28 28 0 14 5 5 1 2 31 28 0 17 32 28 0 18 7 7 1 3 31 28 0 17 5 5 1 2 7 7 1 3 30 28 0 16 31 28 0 17 9 9 1 4 30 28 0 16 7 7 1 3 9 9 1 4 29 28 0 15 30 28 0 16 11 11 1 5 29 28 0 15 9 9 1 4</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_controllers>
+		<controller id="polygon0-ID_Controller">
+			<skin source="#polygon0-ID">
+				<bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+				<source id="polygon0-ID_Joints">
+					<Name_array id="polygon0-ID_JointArr" count="4">StgTenganBoomerang-ID pathMotion-ID StgTenganBoomerang1-ID StgTenganBoomerang2-ID</Name_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_JointArr" count="4">
+							<param name="JOINT" type="Name" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0-ID_Matrices">
+					<float_array id="polygon0-ID_MatArr" count="64">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0.118678 0 0.5000331 -0.8660834 -19.40393 0 0.8660834 0.5000331 -33.60863 0 0 0 1 1 0 0 0.118678 0 0.5000331 -0.8660834 -19.40393 0 0.8660834 0.5000331 -33.60863 0 0 0 1 1 0 0 0.118678 0 0.5000331 -0.8660834 -19.40393 0 0.8660834 0.5000331 -33.60863 0 0 0 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_MatArr" count="4" stride="16">
+							<param type="float4x4" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0-ID_Weights">
+					<float_array id="polygon0-ID_WeightArr" count="1">1</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_WeightArr" count="1">
+							<param type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<joints>
+					<input semantic="JOINT" source="#polygon0-ID_Joints" />
+					<input semantic="INV_BIND_MATRIX" source="#polygon0-ID_Matrices" />
+				</joints>
+				<vertex_weights count="33">
+					<input semantic="JOINT" offset="0" source="#polygon0-ID_Joints" />
+					<input semantic="WEIGHT" offset="1" source="#polygon0-ID_Weights" />
+					<vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+					<v>3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0 3 0</v>
+				</vertex_weights>
+			</skin>
+		</controller>
+	</library_controllers>
+	<library_visual_scenes>
+		<visual_scene id="RootNodeID" name="RootNode">
+			<node id="StgTenganBoomerang-ID" name="StgTenganBoomerang" sid="StgTenganBoomerang-ID" type="JOINT">
+				<node id="pathMotion-ID" name="pathMotion" sid="pathMotion-ID" type="JOINT">
+					<translate>-0.118678 38.8053 0</translate>
+					<rotate>1 0 0 -60</rotate>
+					<node id="StgTenganBoomerang1-ID" name="StgTenganBoomerang1" sid="StgTenganBoomerang1-ID" type="JOINT">
+						<node id="StgTenganBoomerang2-ID" name="StgTenganBoomerang2" sid="StgTenganBoomerang2-ID" type="JOINT" />
+					</node>
+				</node>
+			</node>
+			<node id="polygon0-ID" name="polygon0" type="NODE">
+				<instance_controller url="#polygon0-ID_Controller">
+					<skeleton>#StgTenganBoomerang</skeleton>
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="boomerangMat-ID" target="#boomerangMat" />
+						</technique_common>
+					</bind_material>
+				</instance_controller>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#RootNodeID" />
+	</scene>
+</COLLADA>

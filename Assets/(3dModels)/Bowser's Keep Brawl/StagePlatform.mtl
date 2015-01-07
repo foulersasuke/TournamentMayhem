@@ -1,0 +1,16 @@
+newmtl Platform
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd platform.png
+
+newmtl Mesh
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd mesh.png
+map_d mesh.png
+
+newmtl Mesh2
+Kd 0.500000 0.500000 0.500000
+illum 1
+map_Kd mesh.png
+map_d mesh.png

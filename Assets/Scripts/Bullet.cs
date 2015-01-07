@@ -12,6 +12,7 @@ public class Bullet : MonoBehaviour {
 	void Start () 
 	{
 	
+	
 		g = GameObject.Find("Emitter");
 		tran = g.transform;
 		transform.position = tran.position;
@@ -23,14 +24,10 @@ public class Bullet : MonoBehaviour {
 	
 	
 	
-	
-	
-	
-	
 	void OnCollisionEnter(Collision other)
 	{
 	
-		if(other.gameObject.tag != "weapon")
+		if(other.gameObject.tag != "weapon" && other.gameObject.tag != "item")
 		{
 			Destroy(gameObject);
 		

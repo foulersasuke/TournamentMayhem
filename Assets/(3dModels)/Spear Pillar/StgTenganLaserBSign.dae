@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.5.0" xmlns="http://www.collada.org/2008/03/COLLADASchema">
+	<asset>
+		<contributor>
+			<authoring_tool>BrawlBox</authoring_tool>
+		</contributor>
+		<created>2013-12-21T00:20:36Z</created>
+		<modified>2013-12-21T00:20:36Z</modified>
+		<unit meter="0.01" name="centimeter" />
+		<up_axis>Y_UP</up_axis>
+	</asset>
+	<library_images>
+		<image id="laserYochou-image" name="laserYochou">
+			<init_from>
+				<ref>laserYochou.png</ref>
+			</init_from>
+		</image>
+	</library_images>
+	<library_materials>
+		<material id="laserC">
+			<instance_effect url="#laserC-fx" />
+		</material>
+	</library_materials>
+	<library_effects>
+		<effect id="laserC-fx" name="laserC">
+			<profile_COMMON>
+				<newparam sid="laserYochou-surface">
+					<surface type="2D">
+						<init_from>
+							<ref>laserYochou-image</ref>
+						</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="laserYochou-sampler">
+					<sampler2D>
+						<source>laserYochou-surface</source>
+						<instance_image url="#laserYochou-image" />
+						<wrap_s>WRAP</wrap_s>
+						<wrap_t>WRAP</wrap_t>
+						<minfilter>LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="COMMON">
+					<phong>
+						<diffuse>
+							<texture texture="laserYochou-sampler" texcoord="TEXCOORD0" />
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_geometries>
+		<geometry id="polygon0-ID" name="polygon0">
+			<mesh>
+				<source id="polygon0-ID_Positions">
+					<float_array id="polygon0-ID_PosArr" count="30">6.302589 -18.73829 0 -7.208691 -18.73829 0 6.302589 18.73829 0 -7.208691 18.73829 0 -253.641 -18.73829 0 -253.641 18.73829 0 -511.1805 -18.73829 0 -511.1805 18.73828 0 -525.3194 18.73828 0 -525.3194 -18.73829 0</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_PosArr" count="10" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0-ID_Normals">
+					<float_array id="polygon0-ID_NormArr" count="3">0 0 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_NormArr" count="1" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0-ID_Colors0">
+					<float_array id="polygon0-ID_ColorArr0" count="8">0 0 0 1 0.5019608 0.5019608 0.5019608 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_ColorArr0" count="2" stride="4">
+							<param name="R" type="float" />
+							<param name="G" type="float" />
+							<param name="B" type="float" />
+							<param name="A" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0-ID_UVs0">
+					<float_array id="polygon0-ID_UVArr0" count="20">0.986902 0.251091 0.986902 0.08247697 0.013098 0.251091 0.013098 0.08247697 0.986902 -0.7385271 0.013098 -0.7385271 0.986902 -2.075406 0.013098 -2.075406 0.013098 -3.287918 0.986902 -3.287918</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_UVArr0" count="10" stride="2">
+							<param name="S" type="float" />
+							<param name="T" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0-ID_UVs1">
+					<float_array id="polygon0-ID_UVArr1" count="20">0.148847 0.852812 0.148847 0.804762 0.792986 0.852812 0.792986 0.804762 0.148847 0.314142 0.792986 0.314142 0.148847 -0.480629 0.792986 -0.480629 0.792986 -0.9354579 0.148847 -0.9354579</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_UVArr1" count="10" stride="2">
+							<param name="S" type="float" />
+							<param name="T" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="polygon0-ID_Vertices">
+					<input semantic="POSITION" source="#polygon0-ID_Positions" />
+				</vertices>
+				<triangles material="laserC-ID" count="8">
+					<input semantic="VERTEX" source="#polygon0-ID_Vertices" offset="0" />
+					<input semantic="NORMAL" source="#polygon0-ID_Normals" offset="1" />
+					<input semantic="COLOR" source="#polygon0-ID_Colors0" set="0" offset="2" />
+					<input semantic="TEXCOORD" source="#polygon0-ID_UVs0" set="0" offset="3" />
+					<input semantic="TEXCOORD" source="#polygon0-ID_UVs1" set="1" offset="4" />
+					<p>2 0 0 2 2 1 0 1 1 1 0 0 0 0 0 3 0 1 3 3 1 0 1 1 1 2 0 0 2 2 3 0 1 3 3 4 0 1 4 4 1 0 1 1 1 5 0 1 5 5 4 0 1 4 4 3 0 1 3 3 5 0 1 5 5 6 0 1 6 6 4 0 1 4 4 7 0 1 7 7 6 0 1 6 6 5 0 1 5 5 9 0 0 9 9 7 0 1 7 7 8 0 0 8 8 6 0 1 6 6 7 0 1 7 7 9 0 0 9 9</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_controllers>
+		<controller id="polygon0-ID_Controller">
+			<skin source="#polygon0-ID">
+				<bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+				<source id="polygon0-ID_Joints">
+					<Name_array id="polygon0-ID_JointArr" count="2">StgTenganLaserBSign-ID laserYochouA1-ID</Name_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_JointArr" count="2">
+							<param name="JOINT" type="Name" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0-ID_Matrices">
+					<float_array id="polygon0-ID_MatArr" count="32">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 -1 0 0 1 0 0 53.41457 0 0 1 0 0 0 0 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_MatArr" count="2" stride="16">
+							<param type="float4x4" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0-ID_Weights">
+					<float_array id="polygon0-ID_WeightArr" count="1">1</float_array>
+					<technique_common>
+						<accessor source="#polygon0-ID_WeightArr" count="1">
+							<param type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<joints>
+					<input semantic="JOINT" source="#polygon0-ID_Joints" />
+					<input semantic="INV_BIND_MATRIX" source="#polygon0-ID_Matrices" />
+				</joints>
+				<vertex_weights count="10">
+					<input semantic="JOINT" offset="0" source="#polygon0-ID_Joints" />
+					<input semantic="WEIGHT" offset="1" source="#polygon0-ID_Weights" />
+					<vcount>1 1 1 1 1 1 1 1 1 1</vcount>
+					<v>1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0</v>
+				</vertex_weights>
+			</skin>
+		</controller>
+	</library_controllers>
+	<library_visual_scenes>
+		<visual_scene id="RootNodeID" name="RootNode">
+			<node id="StgTenganLaserBSign-ID" name="StgTenganLaserBSign" sid="StgTenganLaserBSign-ID" type="JOINT">
+				<node id="laserYochouA1-ID" name="laserYochouA1" sid="laserYochouA1-ID" type="JOINT">
+					<translate>-53.41457 0 0</translate>
+					<rotate>0 0 1 -90</rotate>
+				</node>
+			</node>
+			<node id="polygon0-ID" name="polygon0" type="NODE">
+				<instance_controller url="#polygon0-ID_Controller">
+					<skeleton>#StgTenganLaserBSign</skeleton>
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="laserC-ID" target="#laserC">
+								<bind_vertex_input semantic="TEXCOORD0" input_semantic="TEXCOORD" input_set="0" />
+								<bind_vertex_input semantic="TEXCOORD1" input_semantic="TEXCOORD" input_set="1" />
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_controller>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#RootNodeID" />
+	</scene>
+</COLLADA>
